@@ -1,0 +1,350 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+{
+    float:right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right:60px ;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+background-color:#fff;
+    color: black
+    }
+     #cool-image {
+    filter: grayscale(50%) blur(2px) contrast(150%);
+}
+#cool-image {
+    mix-blend-mode: overlay;
+    background-color: #ff0000; /* Color to blend with */
+}
+
+#cool-image {
+    background-image: url(olti.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cool-image {
+    border-radius: 50%;
+}
+#cool-image {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+#cool-image {
+    animation: pulse 2s infinite;
+}
+
+
+#cool-text {
+    text-shadow: 5px 5px 5px rgba(49, 59, 52);
+        }
+#cool-text {
+    background-color: #313b34
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes slide {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+#cool-text {
+    animation: slide 2s forwards;
+}
+#cool-text {
+    text-transform: uppercase;
+}
+#cool-text {
+    font-family: 'Roboto', sans-serif;
+}
+#cool-text {
+    background-color: #313b34
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#cool-text {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+#cool-text {
+    mix-blend-mode: multiply;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Targeting paragraphs with a specific class */
+.highlighted-paragraph {
+    background-color: #ffffcc;
+    padding: 10px;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+p {
+    color: #333;
+    text-align: justify left; /* or left, right, center */
+}
+p {
+    margin: 10px 0; /* top and bottom margin */
+    padding: 10px;
+}
+p {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:hover {
+    background-color: #f2f2f2;
+}
+@media only screen and (max-width: 1000px) {
+    th, td {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
+table {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+tr {
+    transition: background-color 0.3s ease;
+}
+#cool-heading {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+}
+#
+#cool-heading {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+#cool-heading {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#cool-heading {
+    background: linear-gradient(45deg, #050505 #050505);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+}
+
+/* Apply the animation to an element */
+.my-element {
+    animation: pulse 2s infinite;
+}
+#cool-heading {
+    animation: slideIn 0.5s ease-out;
+}
+#cool-heading {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+@media only screen and (max-width: 600px) {
+    .cool-heading {
+        font-size: 24px;
+    }
+}
+ul.fancy-borders li {
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 10px;
+}
+
+ul.fancy-borders li:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+a#cool-link {
+    color: #1c35d9;
+    text-decoration: none;
+    position: relative;
+}
+
+a#cool-link::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6347; /* Underline color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+a#cool-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+a#cool-link {
+    color: ;
+    text-decoration: none;
+    position: relative;
+}
+
+a#cool-linkk {
+    color: #1c35d9;
+    text-decoration: none;
+    position: relative;
+}
+
+a#cool-linkk::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6347; /* Underline color */
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+a#cool-linkk:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+a#cool-linkk {
+    color: #1828d9;
+    text-decoration: none;
+    position: relative;
+}
+svg{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
